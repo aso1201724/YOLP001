@@ -231,7 +231,7 @@ public class MainActivity extends Activity implements LocationListener, WeatherO
         if(mDistLabel!=null) mDistLabel.setVisibility(View.INVISIBLE);
 
         //RouteOverlay作成
-        mRouteOverlay = new RouteOverlay(this,"＜あなたのアプリケーションID＞");
+        mRouteOverlay = new RouteOverlay(this,"dj0zaiZpPTdhZ1hERlB4QU01ViZzPWNvbnN1bWVyc2VjcmV0Jng9Mjg-");
 
         //出発地ピン吹き出し設定
         mRouteOverlay.setStartTitle("出発地");
