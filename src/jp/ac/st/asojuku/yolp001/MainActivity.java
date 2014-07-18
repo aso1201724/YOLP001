@@ -121,6 +121,8 @@ public class MainActivity extends Activity implements LocationListener, WeatherO
 
 		mMapView.getOverlays().add(mWweatherOverlay);
 
+
+
 		mMapView.setLongPress(true);
 
 		mMapView.setMapTouchListener(this);
